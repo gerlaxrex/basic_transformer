@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "basic-transformer"
+version = "0.1.0"
+description = ""
+authors = ["Gerlando Re <g.re@reply.it>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.2.2"
+sentencepiece = "^0.2.0"
+numpy = "^1.26.4"
+portalocker = "^2.8.2"
+pandas = "^2.2.2"
+tqdm = "^4.66.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
